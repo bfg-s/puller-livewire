@@ -6,6 +6,11 @@
 ## Install
 `composer require bfg/puller-livewire`
 
+This package is a plug-in for `Puller`. 
+
+Navigate the [link](https://github.com/bfg-s/puller) to read the documentation 
+in the [https://github.com/bfg-s/puller](https://github.com/bfg-s/puller).
+
 ## Usage
 Make sure that in your `public/vendor` folder published `puller-livewire/puller-livewire.js`.
 He had to appear immediately after installing the package,
