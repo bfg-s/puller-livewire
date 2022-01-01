@@ -1,0 +1,42 @@
+{
+    "name": "bfg/puller-livewire",
+    "description": "A description for puller-livewire.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Xsaven",
+            "email": "xsaven@gmail.com"
+        }
+    ],
+    "require": {
+        "bfg/puller": "*",
+        "livewire/livewire": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bfg\\PullerLivewire\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bfg\\PullerLivewire\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bfg\\PullerLivewire\\PullerLivewireServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
