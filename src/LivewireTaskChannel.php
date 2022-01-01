@@ -2,7 +2,7 @@
 
 namespace Bfg\PullerLivewire;
 
-interface PullLivewireInterface
+interface LivewireTaskChannel
 {
     const CHANNEL = "livewire";
 }

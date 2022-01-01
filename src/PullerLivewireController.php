@@ -2,7 +2,7 @@
 
 namespace Bfg\PullerLivewire;
 
-use App\Pulls\MyTestPull;
+use App\Pulls\MyTest;
 use Bfg\Puller\Controllers\PullerController;
 use Bfg\Puller\Core\Dehydrator;
 use Livewire\Controllers\HttpConnectionHandler;

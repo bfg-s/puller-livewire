@@ -26,7 +26,7 @@ class PullerLivewireServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        \Puller::registerChannelInterface(PullLivewireInterface::class);
+        \Puller::registerChannelInterface(LivewireTaskChannel::class);
 
         if (class_exists(LivewireManager::class)) {
             $this->app->extend(HttpConnectionHandler::class, function () {
