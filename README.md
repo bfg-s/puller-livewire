@@ -8,19 +8,19 @@
 `composer require bfg/puller-livewire`
 
 ## Usage
-1. Make sure that in your `public/vendor` folder published `puller-livewire/puller-livewire.js`.
-   He had to appear immediately after installing the package,
-   as it broads publications in the `laravel-assets` group.
-   If this did not happen and you did not appear there, publish it manually:
+Make sure that in your `public/vendor` folder published `puller-livewire/puller-livewire.js`.
+He had to appear immediately after installing the package,
+as it broads publications in the `laravel-assets` group.
+If this did not happen and you did not appear there, publish it manually:
 ```bash
 php artisan vendor:publish --tag=puller-livewire-assets
 ```
-2. Connect the script in your document after Livewire initialization:
+Connect the script in your document after Livewire initialization:
 ```html
 @livewireScripts()
 <script src="{{ asset('vendor/puller-livewire/puller-livewire.js') }}"></script>
 ```
-3. In Livewire component make event:
+In Livewire component make event:
 ```php
 class OrderTracker extends Component
 {
@@ -35,7 +35,7 @@ class OrderTracker extends Component
     }
 }
 ```
-4. Send Create a guide class or an anonymous channel named `livewire_event_name`.
+Send Create a guide class or an anonymous channel named `livewire_event_name`.
 
 ## Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
