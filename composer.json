@@ -21,11 +21,6 @@
             "Bfg\\PullerLivewire\\": "./src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Bfg\\PullerLivewire\\Tests\\": "tests"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
