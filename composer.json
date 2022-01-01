@@ -26,17 +26,11 @@
             "Bfg\\PullerLivewire\\Tests\\": "tests"
         }
     },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "Bfg\\PullerLivewire\\PullerLivewireServiceProvider"
             ]
         }
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.0"
     }
 }
